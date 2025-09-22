@@ -1,8 +1,11 @@
 {
+  "id": "/",
   "name": "Web3 Crypto Wallet",
   "short_name": "Web3Wallet",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "description": "Secure Web3 cryptocurrency wallet for managing your digital assets.",
   "background_color": "#ffffff",
   "theme_color": "#000000",
   "orientation": "portrait",
@@ -15,6 +18,18 @@
     {
       "src": "/icons/icon-512x512.png",
       "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/screen1.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshots/screen2.png",
+      "sizes": "540x720",
       "type": "image/png"
     }
   ]
